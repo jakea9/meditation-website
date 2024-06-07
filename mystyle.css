@@ -1,0 +1,58 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+    font-family: 'Courier New', Courier, monospace;
+  }
+
+
+
+main {
+    background-image: url('./background.jpg');
+    background: size 100%;
+    height: 90vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  header {
+    height: 12vh;
+    text-align: center;
+}
+
+header h1 {
+    padding-top: 20px;
+}
+
+nav {
+    display: block; /* Ensures nav appears below the header */
+    text-align: center; /* Centers the nav content */
+}
+
+nav a{
+    margin: 0 15px;
+}
+
+
+article {
+    background-color: #ffffff;
+}
+
+a {
+    font-weight: bold;
+    color: black;
+}
+
+a:visited {
+    color: black;
+}
+
+article {
+    background-color: #ffffff;
+    padding: 50px;
+    border-radius: 60px;
+    max-width: 600px;
+    width: 100%;
+    box-sizing: border-box;
+}
